@@ -1,6 +1,5 @@
 %BY: Carlos Tivan Jefferson Chanaluisa 
-%DATE: 06/04/2023 
-
+%DATE: 13/11/2023 
 
 clear %elimina variables 
 close all  %cierra todas las figuras graficas 
@@ -43,13 +42,11 @@ phi = zeros(1,long+1); %orientacion del robot en rad
 phi(1) = 0; %orientacion inicial del robot 
 
 %Valores en x
-
 hx(1) = x1(1) + distancia_A*cos(phi(1)); %posicion en el punto de control eje x 
 disp('Posicion en el punto X');
 disp(hx(1));
 
 %Valores en y 
-
 hy(1) = y1(1) + distancia_A*sin(phi(1)); %posicion en el punto de control eje y
 disp('Posicion en el punto Y');
 disp(hy(1));
@@ -108,7 +105,6 @@ end
 %Muestro la posicion inicial 
 
 % llamo a la funcion robot()
-
 MobileRobot;
 scale = 2 ; 
 
@@ -117,11 +113,9 @@ hold on
 
 
 % Grafica de trayectoria 
-
 H2 = plot(hx(1),hy(1),'k','lineWidth',2);
 
 % Inicio del ciclo for 
-
 step = 20; % pasos de la simulacion
 
 for k=1:step:long
