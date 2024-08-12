@@ -1,5 +1,5 @@
 
-%%%%%% EJEMPLO DE INICIALIZACION %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% EJEMPLO DE INICIALIZACION %%
 
 
 % Inicialización de variables
@@ -7,7 +7,7 @@ x1 = 0; % Posición inicial en el eje X
 y1 = 0; % Posición inicial en el eje Y
 phi = 45*(pi/180); % Ángulo de orientación inicial del robot en radianes (45 grados convertido a radianes)
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SIMULACION VIRTUAL ROBOT %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% SIMULACION VIRTUAL ROBOT %%
 
 % Configuracion de escena
 
@@ -23,6 +23,7 @@ xlabel('x(m)'); ylabel('y(m)'); zlabel('z(m)'); % Etiqueta de los ejes
 camlight right % Luz para la escena
 
 % Grafico del robot en la posicion inicial
+
 MobileRobot; %Función que define la estructura del robot
 scale = 1; % Define la escala para el gráfico del robot
 H1=MobilePlot(x1(1),y1(1),phi(1),scale,'b'); % Grafica el robot en la posición inicial (0,0) con orientación de 45 grados y color azul
