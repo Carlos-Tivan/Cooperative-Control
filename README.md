@@ -23,3 +23,6 @@ To set up the project, ensure you have MATLAB installed. Then, follow these step
 
 
 ![image](https://github.com/user-attachments/assets/6c0d09dd-72a2-40f1-ae29-66307a26bbb6)
+
+![image](https://github.com/user-attachments/assets/06ad6390-a247-4f28-8a25-c431d8217196)
+
