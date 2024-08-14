@@ -1,8 +1,25 @@
 # Cooperative-Control
-Robotics has been one of the most prominent areas in the last decade, with applications in various industries such manufacturing, logistics, and healthcare. 
-Robots have become an essential tool to enhance productivity and efficiency in industry. Cooperative robotics is a promising solution for complex and challenging tasks. 
-In cooperative robotics, two or more robots work together to perform a task, with the goal of improving efficiency and the quality of the work performed. These robots can be autonomous, 
-semi-autonomous, or remotely controlled, and can be equipped with sensors and vision systems to detect the environment and work in a coordinated manner. Object transportation is one of the most common applications in cooperative robotics, 
-as it requires robots to work together to safely and efficiently move large and heavy objects from one place to another. In this task, route planning and action coordination are essential to achieve precise and smooth execution. 
-In this context, simulation in MATLAB has become a powerful tool for the design and validation of cooperative robotic systems, as it allows testing the system in different scene, adjusting its parameters, and detecting errors before physical implementation. 
-Therefore, the combination of cooperative robotics and simulation in MATLAB is an attractive option to enhance efficiency in industry and effectively solve complex tasks.
+
+## Overview
+
+Robotics has become a key technology in various industries such as manufacturing, logistics, and healthcare. The field of cooperative robotics is particularly promising, as it involves multiple robots working together to complete complex tasks, enhancing both productivity and work quality.
+
+## Description
+
+Cooperative robotics involves two or more robots working in tandem to perform tasks that are complex or challenging for individual robots. These robots can be autonomous, semi-autonomous, or remotely controlled and are equipped with sensors and vision systems to work in a coordinated manner. A common application of cooperative robotics is object transportation, where robots collaborate to move large and heavy objects efficiently and safely.
+
+This project focuses on using MATLAB simulation to design and validate cooperative robotic systems. MATLAB provides a robust environment for testing systems in various scenarios, adjusting parameters, and identifying potential issues before physical deployment.
+
+## Features
+
+- Simulation of cooperative robotic systems in MATLAB
+- Testing of different scenarios and system parameters
+- Route planning and action coordination for object transportation
+- Detection and debugging of errors before physical implementation
+
+## Installation
+
+To set up the project, ensure you have MATLAB installed. Then, follow these steps:
+
+
+![image](https://github.com/user-attachments/assets/6c0d09dd-72a2-40f1-ae29-66307a26bbb6)
